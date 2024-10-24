@@ -9,5 +9,6 @@ namespace EventManagement.Data
             : base(options)
         {
         }
+        public DbSet<EventManagement.Models.Events> Events { get; set; } = default!;
     }
 }
